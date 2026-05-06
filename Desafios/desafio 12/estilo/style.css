@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rye&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Rye&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, tahoma, sans-serif;
+    --fonte2: "Rye", serif;
+    --fonte3: "Libre Baskerville", serif;
+    
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -23,6 +34,7 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+    font-family: var(--fonte2);
 }
 
 a {
