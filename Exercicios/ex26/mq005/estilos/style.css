@@ -20,7 +20,7 @@ header > h1 {
     color: white;
 }
 
-.material-icons {
+#burguer {
     color: white;
     background-color: #0E0E0F;
     display: block;
@@ -29,7 +29,7 @@ header > h1 {
     cursor: pointer;
 }
 
-.material-icons:hover {
+#burguer:hover {
     background-color: #A8BEBD;
     color: #0E0E0F;
 }

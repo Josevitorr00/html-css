@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*todas as demais midias*/
+
+ /* tycipal device breakpoints
+
+ Celular pequeno: até 600px (foco em larguras de 360px a 480px).
+ Tablet: 600px a 768px / até 1024px.
+ Desktop pequeno / Laptop: 1024px a 1200px.
+ Desktop padrão: 1200px a 1440px (com contêineres comuns de 1140px a 1200px).
+ Telas grandes (Large Desktop): acima de 1440px.
+*/
+
+@media screen and (min-width: 768px) {
+
+    #burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}
