@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    #FBFFFF branco
+    #8AA8FF azul claro
+    #002A54 azul
+    #00000F azul forte
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #FBFFFF;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: #002A54;
+    color: white;
+    padding: 10px;
+}
+
+header > h1 {
+    border: 1px dotted black;
+    text-align: center;
+}
+
+header > nav {
+    border: 1px dotted black;
+}
+
+main {
+    background-color: #8AA8FF;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px   rgba(0, 0, 0, 0.336);
+}
+
